@@ -1,0 +1,39 @@
+{
+  "name": "dzh-qrcode",
+  "version": "1.0.0",
+  "description": "a vue qrcode plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --progress --hot",
+    "build": "webpack --config webpack.config.prod.js --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duanzihuang/v-qrcode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Duanzihuang/v-qrcode/issues"
+  },
+  "homepage": "https://github.com/Duanzihuang/v-qrcode#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "jquery": "^3.3.1",
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "style-loader": "^0.22.1",
+    "vue-loader": "^15.4.1",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6"
+  }
+}
